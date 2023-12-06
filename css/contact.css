@@ -1,0 +1,24 @@
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.contact-container {
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+.contact-container .contact-heading {
+    font-size: 70px;
+    font-weight: bolder;
+}
+.mail {
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.phone {
+    margin-left: 40px;
+    margin-top: 20px;
+}

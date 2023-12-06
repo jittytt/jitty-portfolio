@@ -1,0 +1,66 @@
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.container .profile {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container .profile-description {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+}
+.profile-description .profile-title {
+    font-size: 72px;
+    font-weight: bolder;
+}
+
+.profile-description .profile-body {
+    font-size: 28px;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+}
+.qualification {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+.qualification h3 {
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 20px 0px;
+    padding-left: 60px;
+}
+.qualification .qualification-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.qualification .qualification-cell {
+    border: 1px solid gray;
+    border-radius: 10px;
+    height: 90px;
+    width: 500px;
+    margin: 20px 0px 10px 70px;
+    padding: 20px 20px 10px;
+}
+.qualification-cell:hover {
+    background-color: #76d9c2 ;
+    color: white;
+}
+.qualification-cell h4 {
+    margin: 2px;
+}
+.qualification-cell p {
+    font-size: 20px;
+    font-weight: 100;
+    margin: 1px;
+}
