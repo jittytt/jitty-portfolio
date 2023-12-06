@@ -17,7 +17,7 @@
     align-items: center;
     width: 30%;
 }
-.img-wrapper img {
+.profile-img .img-wrapper img {
     background: #76d9c2;
     border-radius: 50%;
     width: 100%;
