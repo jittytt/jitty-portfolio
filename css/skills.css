@@ -39,8 +39,8 @@
 .progressBar{
     display: none;
     margin: auto;
-}
 
+}
 .skill-cell:hover > .progressBar{
     display: block;
 }

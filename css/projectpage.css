@@ -3,9 +3,9 @@
     min-height: 100vh;
 }
 .project-desc-container .project-desc-tile {
-    width: 100%;
+    width: 80%;
     border-radius: 10px;
-    margin-left: 70px;
+    margin-left: 80px;
     margin-right: 100px;
     box-shadow: 0px 0px 10px 2px #8583834d;
 }
@@ -15,6 +15,12 @@
 }
 .project-desc-tile .project-desc {
     padding: 20px;
+}
+.project-desc-tile {
+    transition: transform 2s;
+}
+.project-desc-tile:hover {
+    transform: scale(1.1);
 }
 .project-title h3 {
     font-size: 50px;
