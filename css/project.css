@@ -7,9 +7,13 @@
     margin: 0;
     padding-left: 20px;
 }
+.project-container {
+    margin-top: 20px;
+}
 .project-container .projects {
     display: flex;
     flex-wrap: wrap;
+    padding-top: 70px;
 }
 .project-cell {
     cursor: pointer;
@@ -37,12 +41,11 @@
     width: 100%;
     border-radius: 10px 10px 0 0;
 }
-/* .project-cell a {
-    height: 100%;
-    display: inline-block;
+
+.projects a {
     text-decoration: none;
     color: black;
-} */
+}
 .project-name-wrapper {
     display: flex;
     align-items: center;
